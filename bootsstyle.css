@@ -1,0 +1,22 @@
+.flex-box-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width:50%;
+    }
+}
+
+.flex-box-experiment {
+display:flex;
+justify-content: space-between;
+}
